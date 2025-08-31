@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   description: 'Serial entrepreneur and proven business leader with 20+ years scaling businesses. Now transforming companies with AI-powered strategies. Former CEO who built $2.4M monthly recurring revenue business.',
   keywords: 'executive leadership, AI transformation, business scaling, fractional CEO, turnaround expert, business strategy',
   authors: [{ name: 'Reno Provine' }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: 'Reno Provine | Executive Leadership & AI Transformation',
     description: 'Serial entrepreneur and proven business leader transforming companies with AI',
