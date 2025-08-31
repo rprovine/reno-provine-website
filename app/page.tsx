@@ -252,7 +252,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <FaChevronRight className="text-hawaiian-ocean mt-1 mr-2 flex-shrink-0" />
-                    Led successful exit strategy and acquisition
+                    Achieved 40% EBITDA margins through operational excellence
                   </li>
                 </ul>
               </motion.div>
