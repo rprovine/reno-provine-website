@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-executive-light;
+  }
+}
+
+@layer components {
+  .hawaiian-gradient {
+    @apply bg-gradient-to-r from-hawaiian-ocean via-hawaiian-lagoon to-hawaiian-ocean;
+  }
+
+  .sunset-gradient {
+    @apply bg-gradient-to-r from-hawaiian-sunset via-hawaiian-coral to-hawaiian-sunset;
+  }
+
+  .tropical-accent {
+    @apply text-hawaiian-lagoon;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .max-width-container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .executive-card {
+    @apply bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-sm border border-hawaiian-ocean/30 rounded-lg p-8 hover:border-hawaiian-lagoon/50 transition-all duration-300 shadow-xl;
+  }
+
+  .cta-button {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-hawaiian-ocean to-hawaiian-lagoon rounded-md hover:from-hawaiian-lagoon hover:to-hawaiian-ocean transform hover:scale-105 transition-all duration-200 shadow-lg;
+  }
+
+  .secondary-button {
+    @apply inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-hawaiian-lagoon border-2 border-hawaiian-ocean rounded-md hover:bg-hawaiian-ocean/10 transition-all duration-200;
+  }
+
+  .metric-badge {
+    @apply inline-flex items-center px-3 py-1 text-sm font-medium bg-hawaiian-ocean/10 text-hawaiian-lagoon rounded-full border border-hawaiian-ocean/20;
+  }
+
+  .veteran-badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-hawaiian-volcano/10 text-white rounded-md border border-hawaiian-volcano/30;
+  }
+}
