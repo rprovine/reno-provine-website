@@ -6,6 +6,7 @@ const sites = [
   { url: 'https://web-dashboard-seven-pi.vercel.app', name: 'emergency-hub-screenshot.png' },
   { url: 'https://tourismbot.lenilani.com', name: 'tourism-bot-screenshot.png' },
   { url: 'https://oahu-transit-hub.vercel.app', name: 'oahu-transit-screenshot.png' },
+  { url: 'https://ai-bot-special.lenilani.com', name: 'lenilani-ai-screenshot.png' },
   { url: 'https://hawaii-growth-calculator-df4o.vercel.app', name: 'growth-calculator-screenshot.png' },
   { url: 'https://hawaii-business-intelligence-system.vercel.app', name: 'business-intelligence-screenshot.png' },
   { url: 'https://beachhui.lenilani.com/home', name: 'beachhui-screenshot.png' }

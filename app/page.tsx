@@ -657,6 +657,71 @@ export default function Home() {
               >
                 <div className="flex items-start justify-between mb-4">
                   <div>
+                    <h3 className="text-2xl font-bold text-hawaiian-lagoon">LeniLani AI Assistant</h3>
+                    <p className="text-lg text-gray-300">Intelligent Business Consultation Bot</p>
+                    <a href="https://ai-bot-special.lenilani.com" target="_blank" rel="noopener noreferrer" className="text-sm text-hawaiian-coral hover:text-gold-300 mt-1 inline-block">
+                      View Live Demo →
+                    </a>
+                  </div>
+                  <FaBrain className="text-hawaiian-lagoon text-3xl" />
+                </div>
+                
+                {/* Platform Screenshot */}
+                <a href="https://ai-bot-special.lenilani.com" target="_blank" rel="noopener noreferrer" className="block mb-4 rounded-lg overflow-hidden border-2 border-hawaiian-lagoon/30 hover:border-hawaiian-plumeria transition-all duration-300 group">
+                  <div className="relative">
+                    <ImageWithFallback
+                      src="/images/lenilani-ai-screenshot.png"
+                      alt="LeniLani AI Assistant"
+                      width={600}
+                      height={300}
+                      className="w-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-hawaiian-lagoon/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                </a>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-sm font-semibold text-hawaiian-coral mb-2">MARKET PROBLEM</h4>
+                    <p className="text-gray-300">Businesses struggle with 24/7 customer engagement while traditional chatbots frustrate users with scripted responses and miss valuable leads.</p>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-sm font-semibold text-hawaiian-coral mb-2">STRATEGIC VALUE</h4>
+                    <ul className="space-y-1 text-gray-300">
+                      <li className="flex items-start">
+                        <FaChevronRight className="text-hawaiian-lagoon mt-1 mr-2 flex-shrink-0 text-sm" />
+                        Claude AI-powered intelligent conversations
+                      </li>
+                      <li className="flex items-start">
+                        <FaChevronRight className="text-hawaiian-lagoon mt-1 mr-2 flex-shrink-0 text-sm" />
+                        Automated lead qualification & scoring
+                      </li>
+                      <li className="flex items-start">
+                        <FaChevronRight className="text-hawaiian-lagoon mt-1 mr-2 flex-shrink-0 text-sm" />
+                        60% reduction in customer service costs
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="pt-4 border-t border-navy-800">
+                    <button onClick={() => scrollToSection('contact')} className="text-hawaiian-lagoon font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
+                      Schedule consultation to discuss implementation
+                      <FaArrowRight className="text-sm" />
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.6 }}
+                className="executive-card hover:border-hawaiian-lagoon group"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div>
                     <h3 className="text-2xl font-bold text-hawaiian-lagoon">Business Growth Calculator</h3>
                     <p className="text-lg text-gray-300">AI-Powered ROI Analysis Tool</p>
                     <a href="https://hawaii-growth-calculator-df4o.vercel.app" target="_blank" rel="noopener noreferrer" className="text-sm text-hawaiian-coral hover:text-gold-300 mt-1 inline-block">
